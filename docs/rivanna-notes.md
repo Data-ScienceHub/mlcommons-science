@@ -80,3 +80,7 @@ These containers have [GPU passthrough](https://www.rc.virginia.edu/userinfo/riv
 
 When working non-interactively, to leverage the GPUs, it appears that we'll have to create a [SLURM job](https://www.rc.virginia.edu/userinfo/rivanna/slurm/#gpu-intensive-computation).
 A key configuration option is `--gres=gpu:p100:2`, where the p100 is the graphics card you wish to leverage as part of your allocation, and 2 is the number of devices to include (so this would provide 7168 Cuda cores from two Nvidia P100 cards).
+
+### Custom Version of TensorFlow
+
+https://www.rc.virginia.edu/userinfo/rivanna/software/tensorflow/
