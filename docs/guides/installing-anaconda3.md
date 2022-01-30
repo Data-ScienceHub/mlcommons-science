@@ -35,6 +35,30 @@ Optionally, you can omit the python version to get the latest community version 
 It is very important that you run the latest version of pip along with python.
 Failure to do so may result in errors when installing packages designed to use newer versions of pip.
 
+#### Configuring `conda` to be on the path
+
+There are many ways to place the `conda` command onto your path.
+To prevent polluting the command line path, we choose to only expose the `conda` command and none of the environment's underlying binaries.
+This can be done  by doing the following for each OS.
+
+##### Windows
+
+Run the following at the command line.
+```batch
+setx PATH <path_to_conda_install>\condabin;%PATH%
+```
+
+If you are using git-bash or equivalent, follow the Linux/MacOS instructions.
+
+##### Linux / MacOS
+
+Add the following line to your .bashrc, .bash_profile, or .zprofile
+
+```bash
+source <path_to_conda_install>/etc/profile.d/conda.sh
+```
+
+
 Once the above steps have been completed, you must activate your environment for the newly installed version of python and pip are made available.
 You will need to run this command each time you open a new command window, or you can make it active by default by appending the line to your bash configuration located at `~/.bashrc`, `~/.bash_profile`, or your Zsh profile located at `~/.zprofile`.
 
