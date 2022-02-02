@@ -1,0 +1,7 @@
+all: compile run
+
+compile:
+	nvcc -o test test.cu
+
+run:
+	./test
