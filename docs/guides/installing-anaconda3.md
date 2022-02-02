@@ -1,4 +1,14 @@
-This section is a partition of the Cloud Mesh community documentation located at: https://cloudmesh-community.github.io/pub/vonLaszewski-python.pdf.
+THIS DOCUMENTATION IS OUTDATED AND SHOUD NOT BE USED. 
+PLEASE INSTEAD SEE THE PYTHON BOOK AT
+
+* <https://cloudmesh-community.github.io/pub/vonLaszewski-python.pdf>
+* <https://cloudmesh-community.github.io/pub/vonLaszewski-python.epub>
+
+The text can  be modified via a pull request with 
+
+https://github.com/cloudmesh-community/book/blob/main/chapters/prg/python/python-install.md
+
+ANYTHING FROM HERE SHOULD NOT BE USED.
 
 ### Install Python 3.10 via Anaconda or Miniconda
 
