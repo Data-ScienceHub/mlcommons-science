@@ -45,6 +45,21 @@ You can chain as many environments together as you want, but they will be loaded
 Lmods offers some form of a solution engine for creating a configured environment, but it tends to lean on the user to figure out dependencies.
 As such, you may need to load more than just the module you're interested in.
 
+To list available modules use
+
+```
+$ module available
+```
+
+To list aproximately the python modules use
+
+```
+$ module available py
+``
+
+It will return all modules that have py in it. Blease chose those that look like python modules.
+
+
 ### Python Details
 
 Rivanna has two channels of python software and their named modules
@@ -112,4 +127,4 @@ Obviously there is a reason why python.org updates to 3.10.2 ;-) conda is much m
 
 Although we could compile python for rivanna in our local directory, we will not do this at this time and just use the conda version of python that most suites our code. We assume this will be 3.10.0.
 
-We know that python 3.8 has bugs and limitations and should not be used.
+We know that python 3.8 has bugs and limitations and should not be used. However we may not have another choice if we use the installed tensorflow tool kit on rivanna.
