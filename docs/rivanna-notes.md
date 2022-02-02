@@ -55,9 +55,16 @@ To list aproximately the python modules use
 
 ```
 $ module available py
-``
+```
 
 It will return all modules that have py in it. Blease chose those that look like python modules.
+
+To probe for deep learnig modules, use  something similar to
+
+```
+$ module available cuda tesorflow pytorch mxnet nvidia
+```
+
 
 
 ### Python Details
