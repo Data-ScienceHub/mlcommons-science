@@ -103,4 +103,13 @@ $ python -V
 Python 3.10.0
 ```
 
-not sure if we can get that to 3.10.2
+### Gregors Conda Dislike
+
+Rivanna unfortunatley uses conda for accessing various versions of Python. However conda is known to be often behind the state of the art not for ays, but for month's or even a semester.
+
+A good example is the availability of the python compiler version. While the current version is 3.10.2, conda only supports 3.10.1 as of February 1st.
+Obviously there is a reason why python.org updates to 3.10.2 ;-) conda is much more conservative and laks behind. For that reason I ususally use pythoon.org. I aso noticed that on some systems where you compile python natively it runs faster once you switch on the optimizations for that architecture.
+
+Although we could compile python for rivanna in our local directory, we will not do this at this time and just use the conda version of python that most suites our code. We assume this will be 3.10.0.
+
+We know that python 3.8 has bugs and limitations and should not be used.
