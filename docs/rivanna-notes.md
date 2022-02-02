@@ -130,6 +130,10 @@ A key configuration option is `--gres=gpu:p100:2`, where the p100 is the graphic
 
 https://www.rc.virginia.edu/userinfo/rivanna/software/tensorflow/
 
+### Keras on Rifanna
+
+* https://www.rc.virginia.edu/userinfo/rivanna/software/keras/
+
 ### Gregors notes:
 
 To load python 3.8 we can say
