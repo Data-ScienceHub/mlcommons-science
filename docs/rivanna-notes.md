@@ -31,6 +31,29 @@ https://www.rc.virginia.edu/userinfo/rivanna/overview/#gpu-partition
 By default, Rivanna does not allocate GPU cores when creating an instance.
 Instead, you 
 
+### Acces to rivanna
+
+* Gregor: install uva Anywhere this works for linux and mac, I have not tried Woindows, if you have a windos machine let us know. put more details on the vpn here
+* Gregor: start the vpn
+* Gregor: use ssh-keygen to create a key withh passphrase on your maksihne. upload your id_rsa.pub key into rivanna:.ssh/authorized_keys
+* Gregor: on client machine use eval `ssh-agent` (this step can be ommitted on mac as they do it automatically
+* Gregor: on client machine say ssh-add so you do not have to constantly put in your password
+* Gregor: ssh youruvaid@rivanna.hpc.virginia.edu to log into rivanna
+
+to just say ssh youruvais@rivanna put this in your .ssh/config file
+
+```
+Host rivanna
+     User abc1de
+     HostName rivanna.hpc.virginia.edu 
+     IdentityFile ~/.ssh/id_rsa.pub
+```
+
+where you replace abc1de with your uva account id.
+
+Please note that on WIndows you are expected to install gitbash so you can use the same commands and ssh logic as on Linux and Mac. For this reason we do not recommend putty. The reason for thsi is that we can do scripting even from your laptop into rivanna the same way on all platforms.
+
+
 ### Rivanna Software
 
 #### Modules
