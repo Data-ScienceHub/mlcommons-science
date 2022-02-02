@@ -84,3 +84,23 @@ A key configuration option is `--gres=gpu:p100:2`, where the p100 is the graphic
 ### Custom Version of TensorFlow
 
 https://www.rc.virginia.edu/userinfo/rivanna/software/tensorflow/
+
+### Gregors notes:
+
+To load python 3.8 we can say
+
+```
+module load anaconda/2020.11-py3.8
+```
+
+### Gregors 3.10.0
+
+```
+$ module load anaconda
+$ conda create -n py3.10 python=3.10
+$ source activate py3.10
+$ python -V
+Python 3.10.0
+```
+
+not sure if we can get that to 3.10.2
