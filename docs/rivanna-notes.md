@@ -62,7 +62,7 @@ It will return all modules that have py in it. Blease chose those that look like
 To probe for deep learnig modules, use  something similar to
 
 ```
-$ module available cuda tesorflow pytorch mxnet nvidia
+$ module available cuda tesorflow pytorch mxnet nvidia cudnn
 ```
 
 
