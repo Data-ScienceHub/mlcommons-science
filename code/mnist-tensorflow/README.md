@@ -14,7 +14,7 @@ export U=$USER
 
 cp $C/tensorflow-2.7.0.sif /scratch/$U/rivanna/
 wget https://raw.githubusercontent.com/Data-ScienceHub/mlcommons-science/main/code/mnist-tensorflow/mnist.py
-wget https://raw.githubusercontent.com/Data-ScienceHub/mlcommons-science/main/code/mnist-tensorflow/mnist-rivanna.sh
+wget https://raw.githubusercontent.com/Data-ScienceHub/mlcommons-science/main/code/mnist-tensorflow/mnist-rivanna.slurm
 
 echo "Rivanna A"
 time singularity run --nv /scratch/$USER/rivanna/tensorflow-2.7.0.sif mnist.py
