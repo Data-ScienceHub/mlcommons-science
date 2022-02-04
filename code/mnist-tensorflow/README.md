@@ -39,4 +39,6 @@ benchmarks may not be accurate, real time is what we probably want to focus on
 | Rivanna Frontend  | 1m11.535s | 1m00.780s | 0m10.352s  | N/A         | N/A  | N/A    		      | Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz  | Q3  2014 
 
 
+## Tensorflow setup on M1
 
+* <https://www.mrdbourke.com/setup-apple-m1-pro-and-m1-max-for-machine-learning-and-data-science/>
