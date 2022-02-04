@@ -31,3 +31,8 @@ benchmarks may not be accurate, real time is what we probably want to focus on
 | Rivanna A100      | 0m29.263s | 0m14.585s | 0m7.399ss  | 470.82.01   | 11.4 | NVIDIA A100-SXM4-40GB
 | MacBook Pro       | 0m31.01s  | 0m25.26s  | 130%       | N/A         | N/A | M1 Max 66GB
 | Rivanna Frontend  | 1m11.535s | 1m00.780s | 0m10.352s  | N/A         | N/A  |
+
+
+## Tensorflow setup on M1
+
+* <https://www.mrdbourke.com/setup-apple-m1-pro-and-m1-max-for-machine-learning-and-data-science/>
