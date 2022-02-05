@@ -40,7 +40,7 @@ sudo ln -s /usr/local/go/bin/go /usr/bin/go
 sudo mkdir -p ${GOPATH}/src/github.com/hpcng
 
 (cd ${GOPATH}/src/github.com/hpcng && \
-    [ ! -e singularity ] && sudo git clone --depth 1 --branch "${SINGULARITY_VERSION}" https://github.com/singularityware/singularity.git)
+    [ ! -e singularity ] && sudo git clone --depth 1 --branch "${SINGULARITY_VERSION}" https://github.com/apptainer/singularity.git)
 
 cd ${GOPATH}/src/github.com/hpcng/singularity && \
     echo $PATH && \
