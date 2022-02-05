@@ -31,6 +31,29 @@ https://www.rc.virginia.edu/userinfo/rivanna/overview/#gpu-partition
 By default, Rivanna does not allocate GPU cores when creating an instance.
 Instead, you 
 
+### Acces to rivanna
+
+* Gregor: install uva Anywhere this works for linux and mac, I have not tried Woindows, if you have a windos machine let us know. put more details on the vpn here
+* Gregor: start the vpn
+* Gregor: use ssh-keygen to create a key withh passphrase on your maksihne. upload your id_rsa.pub key into rivanna:.ssh/authorized_keys
+* Gregor: on client machine use eval `ssh-agent` (this step can be ommitted on mac as they do it automatically
+* Gregor: on client machine say ssh-add so you do not have to constantly put in your password
+* Gregor: ssh youruvaid@rivanna.hpc.virginia.edu to log into rivanna
+
+to just say ssh youruvais@rivanna put this in your .ssh/config file
+
+```
+Host rivanna
+     User abc1de
+     HostName rivanna.hpc.virginia.edu 
+     IdentityFile ~/.ssh/id_rsa.pub
+```
+
+where you replace abc1de with your uva account id.
+
+Please note that on WIndows you are expected to install gitbash so you can use the same commands and ssh logic as on Linux and Mac. For this reason we do not recommend putty. The reason for thsi is that we can do scripting even from your laptop into rivanna the same way on all platforms.
+
+
 ### Rivanna Software
 
 #### Modules
@@ -44,6 +67,28 @@ You can chain as many environments together as you want, but they will be loaded
 
 Lmods offers some form of a solution engine for creating a configured environment, but it tends to lean on the user to figure out dependencies.
 As such, you may need to load more than just the module you're interested in.
+
+To list available modules use
+
+```
+$ module available
+```
+
+To list aproximately the python modules use
+
+```
+$ module available py
+```
+
+It will return all modules that have py in it. Blease chose those that look like python modules.
+
+To probe for deep learnig modules, use  something similar to
+
+```
+$ module available cuda tesorflow pytorch mxnet nvidia cudnn
+```
+
+
 
 ### Python Details
 
@@ -84,3 +129,36 @@ A key configuration option is `--gres=gpu:p100:2`, where the p100 is the graphic
 ### Custom Version of TensorFlow
 
 https://www.rc.virginia.edu/userinfo/rivanna/software/tensorflow/
+
+### Keras on Rifanna
+
+* https://www.rc.virginia.edu/userinfo/rivanna/software/keras/
+
+### Gregors notes:
+
+To load python 3.8 we can say
+
+```
+module load anaconda/2020.11-py3.8
+```
+
+### Gregors 3.10.0
+
+```
+$ module load anaconda
+$ conda create -n py3.10 python=3.10
+$ source activate py3.10
+$ python -V
+Python 3.10.0
+```
+
+### Gregors Conda Dislike
+
+Rivanna unfortunatley uses conda for accessing various versions of Python. However conda is known to be often behind the state of the art not for ays, but for month's or even a semester.
+
+A good example is the availability of the python compiler version. While the current version is 3.10.2, conda only supports 3.10.1 as of February 1st.
+Obviously there is a reason why python.org updates to 3.10.2 ;-) conda is much more conservative and laks behind. For that reason I ususally use pythoon.org. I aso noticed that on some systems where you compile python natively it runs faster once you switch on the optimizations for that architecture.
+
+Although we could compile python for rivanna in our local directory, we will not do this at this time and just use the conda version of python that most suites our code. We assume this will be 3.10.0.
+
+We know that python 3.8 has bugs and limitations and should not be used. However we may not have another choice if we use the installed tensorflow tool kit on rivanna.
