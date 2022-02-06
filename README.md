@@ -8,6 +8,12 @@ Welcome to the code and research repository supporting MLCommon's Science Workin
 
 * Presentation: <https://docs.google.com/presentation/d/1z3U10_Mrj5CSSeCMOllRL-CKpCvg6MUlmrYOnBe4N_I/edit#slide=id.gf2ef2f8fee_1_22>
 
+## Code
+
+* Earthquake Code: https://github.com/laszewsk/mlcommons/tree/main/benchmarks/earthquake
+* MNIST Code: https://github.com/laszewsk/mlcommons/tree/main/examples/mnist-tensorflow
+
+
 ## Report
 
 * Overleaf: <https://www.overleaf.com/read/qmcbyyjvgmnn>
