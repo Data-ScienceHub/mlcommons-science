@@ -21,8 +21,20 @@ cd ..
 
 ## Code
 
+```bash
+git clone --recursive git@github.com:Data-ScienceHub/mlcommons-science.git
+cd mlcommons-science/mlcommons
+git remote set-url origin git@github.com:laszewsk/mlcommons.git
+git checkout main
+cd ..
+```
+
+or
+
 * Earthquake Code: https://github.com/laszewsk/mlcommons/tree/main/benchmarks/earthquake
 * MNIST Code: https://github.com/laszewsk/mlcommons/tree/main/examples/mnist-tensorflow
+
+
 
 
 ## Report
