@@ -9,6 +9,7 @@ git clone --recursive git@github.com:Data-ScienceHub/mlcommons-science.git
 cd mlcommons-science/mlcommons
 git remote set-url origin git@github.com:laszewsk/mlcommons.git
 git checkout main
+cd ..
 ```
 
 
