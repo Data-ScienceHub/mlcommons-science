@@ -16,7 +16,7 @@ cd ..
 ## Background
 
 * Presentation: https://www.youtube.com/playlist?list=PLy0VLh_GFyz9lz4ZOQIrDACQsuELQ0QnI
-  * Slies: <https://docs.google.com/presentation/d/1z3U10_Mrj5CSSeCMOllRL-CKpCvg6MUlmrYOnBe4N_I/edit#slide=id.gf2ef2f8fee_1_22>
+  * Slides: <https://docs.google.com/presentation/d/1z3U10_Mrj5CSSeCMOllRL-CKpCvg6MUlmrYOnBe4N_I/edit#slide=id.gf2ef2f8fee_1_22>
 
 ## Code
 
