@@ -16,8 +16,7 @@ cd ..
 ## Background
 
 * Presentation: https://www.youtube.com/playlist?list=PLy0VLh_GFyz9lz4ZOQIrDACQsuELQ0QnI
-
-* Presentation: <https://docs.google.com/presentation/d/1z3U10_Mrj5CSSeCMOllRL-CKpCvg6MUlmrYOnBe4N_I/edit#slide=id.gf2ef2f8fee_1_22>
+  * Slies: <https://docs.google.com/presentation/d/1z3U10_Mrj5CSSeCMOllRL-CKpCvg6MUlmrYOnBe4N_I/edit#slide=id.gf2ef2f8fee_1_22>
 
 ## Code
 
@@ -31,10 +30,8 @@ cd ..
 
 or
 
-* Earthquake Code: https://github.com/laszewsk/mlcommons/tree/main/benchmarks/earthquake
-* MNIST Code: https://github.com/laszewsk/mlcommons/tree/main/examples/mnist-tensorflow
-
-
+* Earthquake Code: <https://github.com/laszewsk/mlcommons/tree/main/benchmarks/earthquake>
+* MNIST Code: <https://github.com/laszewsk/mlcommons/tree/main/examples/mnist-tensorflow>
 
 
 ## Report
@@ -45,19 +42,16 @@ or
 ## Internal Communications
 
 * Slack: <https://spring22ds6011002.slack.com>
-* Course Slides: <https://docs.google.com/presentation/d/1JvlRuL0Dtzle9i5cyGv1zWqgXpnNdDaBlvOu9EVDkfg/edit#slide=id.p>
-* Todo List: https://github.com/Data-ScienceHub/mlcommons-science/blob/main/TODO.md
+* Course Slides: <https://docs.google.com/presentation/d/1JvlRuL0Dtzle9i5cyGv1zWqgXpnNdDaBlvOu9EVDkfg/>
+* Project Tasking:< https://github.com/Data-ScienceHub/mlcommons-science/projects/1>
 
 ## Developer Notes
 
-* Index ([index](./docs/index.md))
-  * [Rivanna](./docs/rivanna-notes.md)
-    * [GPU Details](./docs/rivanna-a100.md)
+* MLCommons Science Site: <https://laszewsk.github.io/mlcommons/docs/>
 
 
 ## Deprecation
 
-This repo was previously located at: https://github.com/Data-ScienceHub/mlcommons-science
-
-* Old Slack: https://slack-0qf4931.slack.com/archives/C03064D0YT0
+* Old Repo: <https://github.com/cybertraining-dsc/capstone-earthquake>
+* Old Slack: <https://slack-0qf4931.slack.com/archives/C03064D0YT0>
 
