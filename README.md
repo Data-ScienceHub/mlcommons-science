@@ -7,6 +7,11 @@ Welcome to the code and research repository supporting MLCommon's Science Workin
 * Report: https://docs.google.com/document/d/1KMrVVSWFUcEjPsPo0AZ9O8zYryUdE5PKWVizioRpN_8/edit?usp=sharing
 * Slides: https://docs.google.com/presentation/d/1PnG3ri6oMPy7sPsQtNw7XdoN2Fqm6PD7CMpmsn2Dwcg/edit?usp=sharing
 
+## Progress Report 2 Summer 2022
+
+* Report: https://docs.google.com/document/d/1Z-ACyT-PI_hS0J-pEVkcD5x0wdFOVWUn2ldvSd_Kh-E/edit?usp=sharing
+* Slides: https://docs.google.com/presentation/d/1oq__gJJBLYJfI2P-2lQb2_MACCGQiVva0Q4GLSMEReE/edit?usp=sharing
+
 ## Clone as developer
 
 ```bash
