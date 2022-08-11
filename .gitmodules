@@ -1,6 +1,21 @@
-[submodule "docs/themes/docsy"]
-	path = docs/themes/docsy
-	url = https://github.com/google/docsy.git
 [submodule "mlcommons"]
 	path = mlcommons
 	url = https://github.com/laszewsk/mlcommons
+[submodule "mlcommons-submission"]
+	path = mlcommons-submission
+	url = https://github.com/mlcommons/science
+[submodule "mlcommons-data-earthquake"]
+        path = mlcommons-data-earthquake
+	url = https://github.com/laszewsk/mlcommons-data-earthquake
+[submodule "cloudmesh-data"]
+        path = cloudmesh-data
+	url = https://github.com/cloudmesh/cloudmesh-data
+[submodule "cloudmesh-gpu"]
+        path = cloudmesh-gpu
+	url = https://github.com/cloudmesh/cloudmesh-gpu
+[submodule "cloudmesh-sbatch"]
+        path = cloudmesh-sbatch
+	url = https://github.com/cloudmesh/cloudmesh-sbatch
+[submodule "publication-report"]
+        path = publication-report
+        url = https://github.com/cyberaide/paper-capstone-mlcommons
