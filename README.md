@@ -2,6 +2,11 @@
 
 Welcome to the code and research repository supporting MLCommon's Science Working Group.  In this repository you will find detials surrounding the implementation of a proposed MLCommons benchmark for the TEvolOp earthquake forcasting using deep learning technology.  
 
+## Final Report Summer 2022
+
+* Report: https://www.overleaf.com/read/vzfmkrkzvjsq
+* Slides: https://docs.google.com/presentation/d/1W8H_pzVOfAI4yCG3D3UQvHALZWVG6py2CIdcl1-Dj5g/edit?usp=sharing
+
 ## Progress Report 1 Summer 2022
 
 * Report: https://docs.google.com/document/d/1KMrVVSWFUcEjPsPo0AZ9O8zYryUdE5PKWVizioRpN_8/edit?usp=sharing
